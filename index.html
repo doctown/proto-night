@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body ng-controller="pricing">
+    <script src="app.js"></script>
+    <h3>Item name</h3>
+    <div ng-model="title">{{title}}</div>
+    <p ng-model="price">Current price: {{price}}</p>
+    <img src="{{image}}"/>
+
+    <button ng-click="buy()">Buy now</button>
+</body>
+</html>
